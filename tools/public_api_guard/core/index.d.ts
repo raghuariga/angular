@@ -1108,14 +1108,8 @@ export declare function style(tokens: string | {
 
 /** @experimental */
 export declare class SystemJsNgModuleLoader implements NgModuleFactoryLoader {
-    constructor(_compiler: Compiler, config?: SystemJsNgModuleLoaderConfig);
+    constructor(_compiler: Compiler);
     load(path: string): Promise<NgModuleFactory<any>>;
-}
-
-/** @experimental */
-export declare abstract class SystemJsNgModuleLoaderConfig {
-    factoryPathPrefix: string;
-    factoryPathSuffix: string;
 }
 
 /** @stable */
