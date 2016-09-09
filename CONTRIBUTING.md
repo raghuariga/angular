@@ -243,3 +243,4 @@ changes to be accepted, the CLA must be signed. It's a quick process, we promise
 [plunker]: http://plnkr.co/edit
 [runnable]: http://runnable.com
 [stackoverflow]: http://stackoverflow.com/questions/tagged/angular
+[AngularJS]: https://angular.io/docs/ts/latest/quickstart.html
